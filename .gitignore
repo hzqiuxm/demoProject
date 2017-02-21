@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+demoProject.iml
+service/service.iml
+service/target/
+webapp/src/main/resources/
+webapp/webapp.iml
