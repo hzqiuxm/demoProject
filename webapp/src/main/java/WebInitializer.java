@@ -12,6 +12,7 @@ import javax.servlet.ServletRegistration.Dynamic;
  * @Author 临江仙 hxqiuxm@163.com
  * @Date 2017/2/25 0025 16:22
  */
+//WebApplicationInitializer是Spring提供配置Servlet3.0+配置的接口，替代传统的web.xml
 public class WebInitializer implements WebApplicationInitializer {
 
     @Override
