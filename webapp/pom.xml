@@ -18,9 +18,10 @@
                 <scope>test</scope>
             </dependency>
 
+            <!-- 内部依赖 -->
             <dependency>
                 <groupId>com.ziniu.spring</groupId>
-                <artifactId>service</artifactId>
+                <artifactId>controller</artifactId>
             </dependency>
     </dependencies>
 
