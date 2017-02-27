@@ -33,7 +33,7 @@ public class ElConfig {
     @Value("#{T(java.lang.Math).random() * 100.0 }")//注入表达式结果
     private Double randomNumber;
 
-    @Value("#{demoService.another}")//注入其他Bean的属性
+    @Value("#{demoElService.another}")//注入其他Bean的属性
     private String fromAnother;
 
     @Value("classpath:test")//注入文件资源

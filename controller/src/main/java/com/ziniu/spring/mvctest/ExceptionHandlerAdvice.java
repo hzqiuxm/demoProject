@@ -25,7 +25,7 @@ public class ExceptionHandlerAdvice {
         System.out.println("---------exception()---------");
         ModelAndView modelAndView = new ModelAndView("error");
         modelAndView.addObject("errorMessage",exception.getMessage());
-        System.out.println(exception.getMessage());
+        System.out.println("exception.getMessage()= " + exception.getMessage());
         return modelAndView;
     }
 
